@@ -2582,7 +2582,6 @@ jobs:
                 -D CMAKE_INSTALL_PREFIX=${{ github.workspace }}/BuildRoot/Library/Developer/Toolchains/unknown-Asserts-development.xctoolchain/usr `
                 -D CMAKE_Swift_COMPILER=${SWIFTC} `
                 -D CMAKE_Swift_COMPILER_TARGET=${{ matrix.triple }} `
-                -D CMAKE_Swift_COMPILER_WORKS=YES `
                 -D CMAKE_Swift_FLAGS="-sdk ${env:SDKROOT} ${{ inputs.CMAKE_Swift_FLAGS }}" `
                 -D CMAKE_Swift_FLAGS_RELEASE="-O" `
                 -D CMAKE_SYSTEM_NAME=Windows `
@@ -2612,7 +2611,6 @@ jobs:
                 -D CMAKE_INSTALL_PREFIX=${{ github.workspace }}/BuildRoot/Library/Developer/Toolchains/unknown-Asserts-development.xctoolchain/usr `
                 -D CMAKE_Swift_COMPILER=${SWIFTC} `
                 -D CMAKE_Swift_COMPILER_TARGET=${{ matrix.triple }} `
-                -D CMAKE_Swift_COMPILER_WORKS=YES `
                 -D CMAKE_Swift_FLAGS="-sdk ${env:SDKROOT} ${{ inputs.CMAKE_Swift_FLAGS }}" `
                 -D CMAKE_Swift_FLAGS_RELEASE="-O" `
                 -D CMAKE_SYSTEM_NAME=Windows `
@@ -2641,7 +2639,6 @@ jobs:
                 -D CMAKE_INSTALL_PREFIX=${{ github.workspace }}/BuildRoot/Library/Developer/Toolchains/unknown-Asserts-development.xctoolchain/usr `
                 -D CMAKE_Swift_COMPILER=${SWIFTC} `
                 -D CMAKE_Swift_COMPILER_TARGET=${{ matrix.triple }} `
-                -D CMAKE_Swift_COMPILER_WORKS=YES `
                 -D CMAKE_Swift_FLAGS="-sdk ${env:SDKROOT} ${{ inputs.CMAKE_Swift_FLAGS }}" `
                 -D CMAKE_Swift_FLAGS_RELEASE="-O" `
                 -D CMAKE_SYSTEM_NAME=Windows `
@@ -2670,7 +2667,6 @@ jobs:
                 -D CMAKE_INSTALL_PREFIX=${{ github.workspace }}/BuildRoot/Library/Developer/Toolchains/unknown-Asserts-development.xctoolchain/usr `
                 -D CMAKE_Swift_COMPILER=${SWIFTC} `
                 -D CMAKE_Swift_COMPILER_TARGET=${{ matrix.triple }} `
-                -D CMAKE_Swift_COMPILER_WORKS=YES `
                 -D CMAKE_Swift_FLAGS="-sdk ${env:SDKROOT} ${{ inputs.CMAKE_Swift_FLAGS }}" `
                 -D CMAKE_Swift_FLAGS_RELEASE="-O" `
                 -D CMAKE_SYSTEM_NAME=Windows `
@@ -2699,7 +2695,6 @@ jobs:
                 -D CMAKE_INSTALL_PREFIX=${{ github.workspace }}/BuildRoot/Library/Developer/Toolchains/unknown-Asserts-development.xctoolchain/usr `
                 -D CMAKE_Swift_COMPILER=${SWIFTC} `
                 -D CMAKE_Swift_COMPILER_TARGET=${{ matrix.triple }} `
-                -D CMAKE_Swift_COMPILER_WORKS=YES `
                 -D CMAKE_Swift_FLAGS="-sdk ${env:SDKROOT} ${{ inputs.CMAKE_Swift_FLAGS }}" `
                 -D CMAKE_Swift_FLAGS_RELEASE="-O" `
                 -D CMAKE_SYSTEM_NAME=Windows `
@@ -2732,7 +2727,6 @@ jobs:
                 -D CMAKE_INSTALL_PREFIX=${{ github.workspace }}/BuildRoot/Library/Developer/Toolchains/unknown-Asserts-development.xctoolchain/usr `
                 -D CMAKE_Swift_COMPILER=${SWIFTC} `
                 -D CMAKE_Swift_COMPILER_TARGET=${{ matrix.triple }} `
-                -D CMAKE_Swift_COMPILER_WORKS=YES `
                 -D CMAKE_Swift_FLAGS="-sdk ${env:SDKROOT} ${{ inputs.CMAKE_Swift_FLAGS }}" `
                 -D CMAKE_Swift_FLAGS_RELEASE="-O" `
                 -D CMAKE_SYSTEM_NAME=Windows `
@@ -2762,7 +2756,6 @@ jobs:
                 -D CMAKE_INSTALL_PREFIX=${{ github.workspace }}/BuildRoot/Library/Developer/Toolchains/unknown-Asserts-development.xctoolchain/usr `
                 -D CMAKE_Swift_COMPILER=${SWIFTC} `
                 -D CMAKE_Swift_COMPILER_TARGET=${{ matrix.triple }} `
-                -D CMAKE_Swift_COMPILER_WORKS=YES `
                 -D CMAKE_Swift_FLAGS="-sdk ${env:SDKROOT} ${{ inputs.CMAKE_Swift_FLAGS }}" `
                 -D CMAKE_Swift_FLAGS_RELEASE="-O" `
                 -D CMAKE_SYSTEM_NAME=Windows `
@@ -2795,7 +2788,6 @@ jobs:
                 -D CMAKE_INSTALL_PREFIX=${{ github.workspace }}/BuildRoot/Library/Developer/Toolchains/unknown-Asserts-development.xctoolchain/usr `
                 -D CMAKE_Swift_COMPILER=${SWIFTC} `
                 -D CMAKE_Swift_COMPILER_TARGET=${{ matrix.triple }} `
-                -D CMAKE_Swift_COMPILER_WORKS=YES `
                 -D CMAKE_Swift_FLAGS="-sdk ${env:SDKROOT} ${{ inputs.CMAKE_Swift_FLAGS }}" `
                 -D CMAKE_Swift_FLAGS_RELEASE="-O" `
                 -D CMAKE_SYSTEM_NAME=Windows `
@@ -2823,7 +2815,6 @@ jobs:
                 -D CMAKE_BUILD_TYPE=Release `
                 -D CMAKE_Swift_COMPILER=${SWIFTC} `
                 -D CMAKE_Swift_COMPILER_TARGET=${{ matrix.triple }} `
-                -D CMAKE_Swift_COMPILER_WORKS=YES `
                 -D CMAKE_Swift_FLAGS="-sdk ${env:SDKROOT} ${{ inputs.CMAKE_Swift_FLAGS }}" `
                 -D CMAKE_Swift_FLAGS_RELEASE="-O" `
                 -D CMAKE_SYSTEM_NAME=Windows `
@@ -2844,7 +2835,6 @@ jobs:
                 -D CMAKE_BUILD_TYPE=Release `
                 -D CMAKE_Swift_COMPILER=${SWIFTC} `
                 -D CMAKE_Swift_COMPILER_TARGET=${{ matrix.triple }} `
-                -D CMAKE_Swift_COMPILER_WORKS=YES `
                 -D CMAKE_Swift_FLAGS="-sdk ${env:SDKROOT} ${{ inputs.CMAKE_Swift_FLAGS }}" `
                 -D CMAKE_Swift_FLAGS_RELEASE="-O" `
                 -D CMAKE_SYSTEM_NAME=Windows `
@@ -2882,7 +2872,6 @@ jobs:
                 -D CMAKE_INSTALL_PREFIX=${{ github.workspace }}/BuildRoot/Library/Developer/Toolchains/unknown-Asserts-development.xctoolchain/usr `
                 -D CMAKE_Swift_COMPILER=${SWIFTC} `
                 -D CMAKE_Swift_COMPILER_TARGET=${{ matrix.triple }} `
-                -D CMAKE_Swift_COMPILER_WORKS=YES `
                 -D CMAKE_Swift_FLAGS="-sdk ${env:SDKROOT} ${{ inputs.CMAKE_Swift_FLAGS }}" `
                 -D CMAKE_Swift_FLAGS_RELEASE="-O" `
                 -D CMAKE_SYSTEM_NAME=Windows `
@@ -2923,7 +2912,6 @@ jobs:
                 -D CMAKE_CXX_FLAGS="${{ inputs.WINDOWS_CMAKE_CXX_FLAGS }}" `
                 -D CMAKE_Swift_COMPILER=${SWIFTC} `
                 -D CMAKE_Swift_COMPILER_TARGET=${{ matrix.triple }} `
-                -D CMAKE_Swift_COMPILER_WORKS=YES `
                 -D CMAKE_Swift_FLAGS="-sdk ${env:SDKROOT} ${{ inputs.CMAKE_Swift_FLAGS }}" `
                 -D CMAKE_Swift_FLAGS_RELEASE="-O" `
                 -D CMAKE_SYSTEM_NAME=Windows `
@@ -2950,7 +2938,6 @@ jobs:
                 -D CMAKE_C_FLAGS="${{ inputs.WINDOWS_CMAKE_C_FLAGS }}" `
                 -D CMAKE_Swift_COMPILER=${SWIFTC} `
                 -D CMAKE_Swift_COMPILER_TARGET=${{ matrix.triple }} `
-                -D CMAKE_Swift_COMPILER_WORKS=YES `
                 -D CMAKE_Swift_FLAGS="-sdk ${env:SDKROOT} ${{ inputs.CMAKE_Swift_FLAGS }}" `
                 -D CMAKE_Swift_FLAGS_RELEASE="-O" `
                 -D CMAKE_SYSTEM_NAME=Windows `
@@ -2984,7 +2971,6 @@ jobs:
                 -D CMAKE_INSTALL_PREFIX=${{ github.workspace }}/BuildRoot/Library/Developer/Toolchains/unknown-Asserts-development.xctoolchain/usr `
                 -D CMAKE_Swift_COMPILER=${SWIFTC} `
                 -D CMAKE_Swift_COMPILER_TARGET=${{ matrix.triple }} `
-                -D CMAKE_Swift_COMPILER_WORKS=YES `
                 -D CMAKE_Swift_FLAGS="-sdk ${env:SDKROOT} ${{ inputs.CMAKE_Swift_FLAGS }}" `
                 -D CMAKE_Swift_FLAGS_RELEASE="-O" `
                 -D CMAKE_SYSTEM_NAME=Windows `
@@ -3014,7 +3000,6 @@ jobs:
                 -D CMAKE_INSTALL_PREFIX=${{ github.workspace }}/BuildRoot/Library/Developer/Toolchains/unknown-Asserts-development.xctoolchain/usr `
                 -D CMAKE_Swift_COMPILER=${SWIFTC} `
                 -D CMAKE_Swift_COMPILER_TARGET=${{ matrix.triple }} `
-                -D CMAKE_Swift_COMPILER_WORKS=YES `
                 -D CMAKE_Swift_FLAGS="-sdk ${env:SDKROOT} ${{ inputs.CMAKE_Swift_FLAGS }}" `
                 -D CMAKE_Swift_FLAGS_RELEASE="-O" `
                 -D CMAKE_SYSTEM_NAME=Windows `
